@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Women Safety</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <color name="titlecolor">#f00</color>
+</resources>

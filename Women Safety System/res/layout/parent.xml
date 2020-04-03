@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back2" android:onClick="stopplay">
+    <TextView android:id="@+id/textView1" android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:textStyle="bold" android:textSize="40dp" android:textColor="@color/titlecolor" android:text="Women Safety System"></TextView>
+    <ImageView android:id="@+id/imageView1" android:layout_centerHorizontal="true" android:layout_below="@+id/textView1" android:layout_width="fill_parent"  android:src="@drawable/safety" android:layout_height="280dp"></ImageView>
+     <Button android:text="Add Daughter Mobile" android:id="@+id/Button8" android:layout_above="@id/Button8"  android:layout_centerHorizontal="true" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="10dip" android:layout_y="386dip" android:onClick="adddaguhter_click"></Button>
+     <Button android:text="Track" android:id="@+id/Button8" android:layout_above="@id/Button7"  android:layout_centerHorizontal="true" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="10dip" android:layout_y="386dip" android:onClick="track_click"></Button>
+    <Button android:text="Exit App" android:id="@+id/Button7" android:layout_alignParentBottom="true"  android:layout_centerHorizontal="true" android:onClick="exitapp_click" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="10dip" android:layout_y="386dip"></Button>
+  </RelativeLayout>
+
